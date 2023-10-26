@@ -1,0 +1,45 @@
+#root {
+  width: 100%;
+  height: 100vh;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  height: 100%;
+  padding: 20px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  background-color: #F0F2F5;
+}
+
+.board {
+  display: flex;
+  gap: 5px;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.center {
+  margin: auto;
+}
+
+.buttonBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttonBlock__takeMore {
+  margin-bottom: 10px;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.points {
+  color: black;
+  text-align: center;
+  font-size: 18px;
+}

@@ -1,0 +1,16 @@
+.game-finished-modal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    max-width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    gap: 40px;
+}
+
+.game-finished-modal h2{
+    color: black;
+    text-align: center;
+}

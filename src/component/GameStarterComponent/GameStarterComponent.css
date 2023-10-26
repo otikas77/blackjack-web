@@ -1,0 +1,26 @@
+.game-starter-component {
+    margin: auto;
+    position: relative;
+}
+
+.game-starter-component > svg {
+    height: 100%;
+}
+
+.game-starter-component__button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 16px;
+    transition: all .2s ease-in-out;
+}
+
+.game-starter-component__button:hover {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.55);
+}
